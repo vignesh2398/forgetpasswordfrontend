@@ -16,7 +16,7 @@ function App() {
       <Route path='/' element ={<Loginpage/>}/>
       <Route path='/login' element ={<Dashboard/>}/>
       <Route path='/forgotpassword' element ={<Passwordreset/>}/>
-      <Route path='/newpassword/:id' element ={<Newpassword1/>}/>
+      <Route path='/:id' element ={<Newpassword1/>}/>
       <Route path='/signin' element ={<Create/>}/>
     
       
